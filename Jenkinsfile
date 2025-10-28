@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKERHUB_CREDENTIALS = credentials('dockerhub-creds')  // Jenkins credentials ID
-        IMAGE_NAME = 'samkitchopda/mydockerpipelineapp'          // Change this to your Docker Hub repo
+        IMAGE_NAME = 'aditya1664/mydockerpipelineapp'          // Change this to your Docker Hub repo
         IMAGE_TAG = 'v1'
     }
 
@@ -46,3 +46,4 @@ pipeline {
         }
     }
 }
+
