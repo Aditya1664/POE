@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo "Cloning repository..."
-                git branch: 'main', url: 'https://github.com/SAMKIT-CHOPDA/MyDockerPipelineApp.git'
+                git branch: 'main', url: 'https://github.com/Aditya1664/POE.git'
             }
         }
 
@@ -46,4 +46,5 @@ pipeline {
         }
     }
 }
+
 
